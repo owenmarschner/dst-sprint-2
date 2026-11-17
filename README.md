@@ -13,3 +13,11 @@ The group report and individual reflections are due on Blackboard by **12 noon o
 - Oliwer
 - Owen
 - Tyler
+
+| Model | Starting point |
+| --- | --- |
+| Two-layer CNN | Build a small CNN with random weights. |
+| ResNet-18 from scratch | Load Torchvision ResNet-18 with `weights=None`. |
+| ResNet-18 from ImageNet | Load ImageNet weights and add a 10-class head. |
+| ResNet-18 from Sentinel-2 | Load TorchGeo’s RGB MoCo weights and add a 10-class head. |
+| SatMAE | Load the single-image RGB checkpoint, freeze the backbone, and train a 10-class head. |
