@@ -1,4 +1,4 @@
-# Data Science Toolbox — Sprint 2
+# Data Science Toolbox — Sprint 2: Layers of FUN :)
 
 Compare neural networks for land-use and land-cover classification on EuroSAT satellite images, and assess how their computational requirements scale to 1,000 times as much data. See the [assessment brief](brief/sprint-2-description.pdf).
 
