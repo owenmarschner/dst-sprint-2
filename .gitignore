@@ -15,8 +15,15 @@ __pycache__/
 .env.*
 !.env.example
 
-# Local EuroSAT downloads and extracted images
-/data/
+# Track the full EuroSAT RGB dataset, shared splits, and dataset documentation
+/data/*
+!/data/EuroSAT_RGB/
+!/data/train/
+!/data/test/
+!/data/README.md
+!/data/LICENSE-EuroSAT.txt
+
+# Local EuroSAT archives
 EuroSAT_RGB.zip
 EuroSAT_MS.zip
 

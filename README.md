@@ -14,6 +14,8 @@ The group report and individual reflections are due on Blackboard by **12 noon o
 - Owen
 - Tyler
 
+Use the [shared EuroSAT RGB train and test sets](data/README.md) for all model comparisons.
+
 | Model | Starting point |
 | --- | --- |
 | Two-layer CNN | Build a small CNN with random weights. |
