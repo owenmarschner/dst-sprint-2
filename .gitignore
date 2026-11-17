@@ -1,0 +1,27 @@
+# Local operating-system files
+.DS_Store
+Thumbs.db
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Local environment variables
+.env
+.env.*
+!.env.example
+
+# Local EuroSAT downloads and extracted images
+/data/
+EuroSAT_RGB.zip
+EuroSAT_MS.zip
+
+# Model checkpoints and weights
+checkpoints/
+*.pt
+*.pth
+*.safetensors
